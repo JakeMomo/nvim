@@ -5,7 +5,7 @@ fait un git clone dans ~/.config
 ## déplacer fenêtre : 
 	entre écrans : super + shift + flèche droite/gauche
 	entre workspace : super + ctrl + flèche haut/bas
-	dans l'écran : super + ctrl + flèche gauche/droite
+	dans l'écran : super (+ ctrl) + flèche gauche/droite
 
 ## redimensionner fenêtre : super + entrée pour activer mode édition
 	déplacer fenêtre : flèches, puis entrée pour valider / échap annuler
