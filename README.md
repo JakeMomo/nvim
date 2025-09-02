@@ -1,6 +1,6 @@
 fait un git clone dans ~/.config
 
-# raccourcis : 
+# raccourcis pop os : 
 
 ## déplacer fenêtre : 
 	entre écrans : super + shift + flèche droite/gauche
@@ -34,16 +34,27 @@ https://neovim.io/doc/user/quickref.html
 - (imode) leader+n : autocomplétion, navigation avec C-n/p
 
 ## navigation : 
-- (nmode) w pour avancer d'un mot, b pour reculer d'un mot
-- (nmode) C-t nouveau buffer
-- (nmode) C-v/x split horizontal/vertical
-- (nmode) - pour remonter d'un dossier
-- (nmode) :bd ferme un buffer
-- (nmode) shift+flèche pour chanegr de buffer
-- (vmode) d : supprimer texte sélectionné
-- (vmode) y copier sélection
-- (vmode) c supprime sélection et lance mode insertion
-- (vmode) p remplace sélectionner par clipboard
+### nmode
+-  w pour avancer d'un mot, b pour reculer d'un mot
+- C-t nouveau buffer
+- C-v/x split horizontal/vertical
+- "-" pour remonter d'un dossier
+- :bd ferme un buffer
+- shift+flèche pour chanegr de buffer
+- $ fin de ligne
+- ^ début de ligne
+- ( début de phrase courant (ou précédent si déjà au début)
+- ) fin de phrase courante / suivante si déjà en fin
+- gj : ligne affiché du dessus
+- gk : ligne affichée du dessous
+- u : undo
+- ctrl + r : redo
+
+### vmode
+- d : supprimer texte sélectionné
+- y copier sélection
+- c supprime sélection et lance mode insertion
+- p remplace sélectionner par clipboard
 
 ## navigateur de fichiers : 
 https://github.com/nvim-tree/nvim-tree.lua?tab=readme-ov-file#custom-mappings
