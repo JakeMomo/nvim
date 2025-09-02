@@ -49,6 +49,7 @@ https://neovim.io/doc/user/quickref.html
 - gk : ligne affichée du dessous
 - u : undo
 - ctrl + r : redo
+- g + _ : dernier caractère non vide de la ligne
 
 ### vmode
 - d : supprimer texte sélectionné
