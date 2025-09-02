@@ -35,14 +35,14 @@ https://neovim.io/doc/user/quickref.html
 
 ## navigation : 
 ### nmode
--  w pour avancer d'un mot, b pour reculer d'un mot
-- C-t nouveau buffer
-- C-v/x split horizontal/vertical
-- "-" pour remonter d'un dossier
-- :bd ferme un buffer
-- shift+flèche pour chanegr de buffer
-- $ fin de ligne
-- ^ début de ligne
+-  w : avancer d'un mot, b : pour reculer d'un mot
+- C-t : nouveau buffer
+- C-v/x : split horizontal/vertical
+- "-" : remonter d'un dossier
+- :bd : ferme un buffer
+- shift+flèche : changer de buffer
+- $ : fin de ligne
+- ^ ou _ : début de ligne
 - ( début de phrase courant (ou précédent si déjà au début)
 - ) fin de phrase courante / suivante si déjà en fin
 - gj : ligne affiché du dessus
@@ -53,9 +53,9 @@ https://neovim.io/doc/user/quickref.html
 
 ### vmode
 - d : supprimer texte sélectionné
-- y copier sélection
-- c supprime sélection et lance mode insertion
-- p remplace sélectionner par clipboard
+- y : copier sélection
+- c : supprime sélection et lance mode insertion
+- p : remplace sélectionner par clipboard
 
 ## navigateur de fichiers : 
 https://github.com/nvim-tree/nvim-tree.lua?tab=readme-ov-file#custom-mappings
